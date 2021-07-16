@@ -25,11 +25,9 @@ const typeDefs = gql`
 	type Author {
 		id: ID!
 		name: String!
-		"Äuthor's profile picture url"
+		"Author's profile picture url"
 		photo: String
 	}
 `;
 
 module.exports = typeDefs;
-
-
